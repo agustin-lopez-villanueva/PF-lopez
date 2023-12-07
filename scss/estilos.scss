@@ -144,7 +144,7 @@
     flex-direction: row;
     background-color: $color-primario;
     opacity: 0.8;
-    margin-top: 40px;
+    margin-top: 30px;
 
     .elemento {
         display: flex;
@@ -157,18 +157,21 @@
         box-shadow: -13px 13px 30px -10px rgba(0, 0, 0, 1);
 
         .imagen {
-            width: 60%;
+            
+            width: 50%;
             display: block;
             margin: 0 auto;
-            margin-top: 15px;
-            margin-bottom: 20px;
+            margin-top: 10px;
+            margin-bottom: 15px;
         }
 
         .descripcion {
-            width: 80%;
+            
+            
+            width: 60%;
             font-size: 15px;
             display: block;
-            margin: 0 auto;
+            margin: 2px auto;
         }
 
         .btn {

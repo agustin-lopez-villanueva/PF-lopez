@@ -139,9 +139,10 @@
   margin-top: 40px;
 }
 .carrusel-container .elemento {
+  
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 23%;
   height: 400px;
   margin: 50px 10px;
   background-color: rgba(208, 208, 208, 0.327);
@@ -156,6 +157,11 @@
   margin-bottom: 20px;
 }
 .carrusel-container .elemento .descripcion {
+  
+  
+    max-height: 40px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
   width: 80%;
   font-size: 15px;
   display: block;
@@ -222,11 +228,13 @@
   opacity: 0.8;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 70px;
+  margin: 50px;
+  margin-left: 0px;
   border-radius: 10px;
 }
 
 .formulario1 {
+  margin-left: 1px;
   align-items: center;
   text-align: left;
 }
